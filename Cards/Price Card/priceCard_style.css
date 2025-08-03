@@ -1,0 +1,64 @@
+body{
+    background-color:beige;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.sub-container1{
+    height: 360px;
+    width: 230px;
+    border-radius: 20px;
+    background: linear-gradient(330deg,rgb(62, 18, 193),rgb(166, 29, 166));
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sub-container2{
+    height: 400px;
+    width: 230px;
+    border-radius: 20px;
+    background: linear-gradient(330deg,rgb(62, 18, 193),rgb(166, 29, 166));
+    text-align: center;
+}
+
+.sub-container1 p img, .sub-container2 p img {
+  width: 15px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.button-container1, .button-container2{
+    justify-content: center;
+    display: flex;
+}
+
+.button-container1 button{
+    padding : 7px 20px;
+    border-radius: 15px;
+    border: none;
+    margin-top: -6px;
+}
+
+.button-container2 button{
+    padding : 7px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+}   
+h2{
+    color: gold;
+}
+
+h1{
+    color: white;
+}
+
+.currency , .per-month{
+    font-size: 13px;
+    font-family: Arial;
+}
