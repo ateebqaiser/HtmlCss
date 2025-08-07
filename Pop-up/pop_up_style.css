@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(136, 204, 231);
+}
+
+.send-button{
+    margin-top: 240px;
+    display: flex;
+    justify-self: center;
+    
+}
+
+.send-button button{
+    padding: 10px 34px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.pop-up-container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    height: 200px;
+    width: 400px;
+    justify-self: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pop-up-container img{
+    height: 80px;
+    width: 80px;
+    margin-left: 160px;
+}
+
+.pop-up-container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.pop-button{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.pop-button button{
+    padding: 10px 34px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}

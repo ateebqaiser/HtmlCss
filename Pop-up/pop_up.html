@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up</title>
+    <link rel="stylesheet" href="pop_up_style.css">
+</head>
+<body>
+    <div class="send-button" id="send" style="display: block;">
+        <button id="sendbtn">Send</button>
+    </div>
+    <div class="pop-up-container" id="pop" style="display: none;">
+            <img src="download.png" alt="">
+            <p>Thank you your details have been submitted successfully</p>
+            <div class="pop-button">
+                <button id="popbtn">OK</button>
+            </div>
+    </div>
+    <script>
+        const sendbtn = document.getElementById('sendbtn');
+        const popbtn=document.getElementById('popbtn');
+        const pop = document.getElementById('pop');
+        const send = document.getElementById('send');
+
+        sendbtn.addEventListener("click",() =>{
+            pop.style.display='block';
+            send.style.display='none';
+        });
+        popbtn.addEventListener("click",()=>{
+            pop.style.display='none';
+            send.style.display='block';
+        });
+    </script>
+</body>
+</html>
