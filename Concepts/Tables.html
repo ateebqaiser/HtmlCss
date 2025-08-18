@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1" cellspacing="10" cellpadding="15" width="50%" height="150" align="center" bgcolor="#f2f2f2">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ateeb</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <!-- Ek cell ko multiple columns tak phailana-->
+        <tr>
+            <th colspan="2">Student Info</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Ali</td>
+        </tr>
+        <!-- Ek cell ko multiple rows tak phailana -->
+        <tr>
+            <td rowspan="3">Marks</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Data</th>
+        </tr>
+        <tr>
+            <td>hello</td>
+            <td>bye</td>
+            <td>hi</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+<!-- | Tag          | Matlab / Kaam                                                       |
+| ------------ | ------------------------------------------------------------------- |
+| `<table>`    | Table start karta hai                                               |
+| `border="1"` | Table ke grid (line) ko dikhata hai (1 ka matlab ek line ka border) |
+| `<tr>`       | Table Row: ek horizontal line jisme headings ya data hota hai       |
+| `<th>`       | Table Heading: bold aur center-aligned hoti hai (Column ka naam)    |
+| `<td>`       | Table Data: normal data cells, jahan values hoti hain               | -->
+
+<!-- 
+| **Attribute**       | **Use**                                                                    | **Example in Code**                  | **What it Does**                                      |
+| ------------------- | -------------------------------------------------------------------------- | ------------------------------------ | ----------------------------------------------------- |
+| `border="1"`        | Table ke border ko visible banata hai                                      | `border="1"`                         | Border dikhai dega table ke ird gird                  |
+| `cellspacing="10"`  | Cells ke darmiyan ka gap set karta hai                                     | `cellspacing="10"`                   | Cells ke beech 10px ka gap hoga                       |
+| `cellpadding="15"`  | Har cell ke andar ka padding (space) deta hai                              | `cellpadding="15"`                   | Text aur border ke beech 15px ka space hoga           |
+| `width="50%"`       | Table ki width set karta hai (percentage ya px mein)                       | `width="50%"`                        | Table screen ke aadhe hisse tak faila hoga            |
+| `height="150"`      | Table ki height set karta hai                                              | `height="150"`                       | Table vertically 150px lambi hogi                     |
+| `align="center"`    | Table ko page ke center mein laata hai                                     | `align="center"`                     | Table center mein dikhai degi                         |
+| `bgcolor="#f2f2f2"` | Table ka background color set karta hai (hex ya color name use hota hai)   | `bgcolor="#f2f2f2"`                  | Table ka background halkay grey color ka ho jayega    |
+
+ -->
